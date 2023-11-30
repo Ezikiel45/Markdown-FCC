@@ -1,0 +1,59 @@
+body {
+  text-align: center;
+  padding: 25px;
+  background-color: #e0ffff;
+  font-size: 18px;
+}
+
+#appWrap {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+#editorWrap {
+  min-width: 450px;
+  margin: auto;
+  filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.6));
+}
+
+#editor {
+  width: 91.7%;
+  min-width: 415px;
+  min-height: 250px;
+  border: 5px solid black;
+  border-radius: 0 0 10px 10px;
+  margin: 0 auto 20px auto;
+  background-color: #f8f8ff;
+  padding-left: 25px;
+  font-size: 16px;
+}
+
+#preview {
+  min-width: 400px;
+  border-radius: 0 0 10px 10px;
+  margin: 0 auto 35px auto;
+  background-color: #f8f8ff;
+  padding: 35px 25px 0 25px;
+  border: 5px solid black;
+  text-align: left;
+}
+
+.header {
+  background-color: #6495ed;
+  margin: 20px auto 0 auto;
+  border: 5px solid black;
+  border-radius: 10px 10px 0 0;
+  padding: 10px 25px;
+  text-align: left;
+}
+
+pre {
+  background-color: Linen;
+  width: 100%;
+  border-radius: 10px;
+}
+#previewerWrap {
+  filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.6));
+}
